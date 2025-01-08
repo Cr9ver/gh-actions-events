@@ -31,3 +31,4 @@ jobs:
               run: npm run build 
             - name: Simulate deployment
               run: echo "deploying"
+# Command to skip workflow run (git commit -m "commit message [skip ci]")
